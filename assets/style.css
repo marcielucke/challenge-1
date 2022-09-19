@@ -14,6 +14,9 @@ header {
     background-color: #2a607c;
     color: #ffffff; 
 }
+
+/* flex container creates format for the links in the header with even spacing */
+
 .flexContainer {
     display: flex;
     justify-items: center;
@@ -78,8 +81,8 @@ p {
 .benefits {
     margin-right: 20px;
     padding: 20px;
-    padding-bottom: 150px;
-    padding-top: 70px;
+    padding-bottom: 100px;
+    padding-top: 20px;
     clear: both;
     float: right;
     width: 20%;
@@ -89,6 +92,7 @@ p {
 }
 
 .benefit-text {
+    margin-top: 32px;
     margin-bottom: 32px;
     color: #ffffff;
 }
